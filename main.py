@@ -16,7 +16,7 @@ load_dotenv()
 TOKEN = os.getenv("TOKEN")
 bot = Bot(TOKEN)
 dp = Dispatcher(bot=bot, storage=MemoryStorage())
- 
+  
 
 HELP_COMMAND = """
 /start - ботни ишга тушуриш
